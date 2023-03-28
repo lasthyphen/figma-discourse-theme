@@ -173,6 +173,7 @@ $header-text: false !default;
 
 @import "category-banners";
 @import "category-boxes";
+@import "font-variables";
 
 *:focus {
   outline-color: var(--fg-high-contrast);
