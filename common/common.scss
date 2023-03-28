@@ -223,6 +223,14 @@ div.ac-wrap {
   }
 }
 
+#reply-control .reply-area {
+    margin: 0 auto;
+    padding: 20px !important;
+    box-sizing: border-box;
+    height: calc(100% - 11px);
+    width: 100%;
+}
+
 .sidebar-wrapper {
   display: none !important;
 }
