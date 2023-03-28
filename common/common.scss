@@ -231,6 +231,14 @@ div.ac-wrap {
   overflow: revert;
 }
 
+div#ember20-body {
+    position: fixed;
+    min-width: 220px;
+    inset: 0px auto auto 0px;
+    margin: 0px;
+    transform: translate3d(70px, 241.5px, 0px) !important;
+}
+
 #main-outlet {
   padding: 0 0;
   margin-bottom: 6em;
