@@ -263,6 +263,10 @@ Select kit theming
   }
 }
 
+.list-controls .select-kit .select-kit-body {
+    transform: translate3d(70px, 241.5px, 0px) !important;
+}
+
 /* List controls appears on primary paths (e.g. the home page) and acts
 as Discourse's primary form of navigation between filters */
 .list-controls {
