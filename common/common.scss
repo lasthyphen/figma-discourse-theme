@@ -222,6 +222,10 @@ div.ac-wrap {
   }
 }
 
+.sidebar-wrapper {
+  display: none !important;
+}
+
 .container.posts > .row {
   overflow: revert;
 }
