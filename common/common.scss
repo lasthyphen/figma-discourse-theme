@@ -1615,7 +1615,7 @@ div.poll.pie .poll-info {
     --font-up-2: 1.3195em;
     --font-up-1: 1.1487em;
     --font-0: 1em;
-    --font-down-1: 0.8706em;
+    --font-down-1: 0.75em;
     --font-down-2: 0.7579em;
     --font-down-3: 0.6599em;
     --font-down-4: 0.5745em;
@@ -12098,7 +12098,7 @@ body.invite-page .d-header .panel.clearfix,body.invite-page .d-header .panel.con
 
 .login-modal:not(.hidden) #login-form .input-group input,.login-modal:not(.hidden) #login-form .input-group .select-kit-header,.login-modal:not(.hidden) .login-form .input-group input,.login-modal:not(.hidden) .login-form .input-group .select-kit-header,.login-modal:not(.hidden) .invite-form .input-group input,.login-modal:not(.hidden) .invite-form .input-group .select-kit-header,.create-account #login-form .input-group input,.create-account #login-form .input-group .select-kit-header,.create-account .login-form .input-group input,.create-account .login-form .input-group .select-kit-header,.create-account .invite-form .input-group input,.create-account .invite-form .input-group .select-kit-header,.invites-show #login-form .input-group input,.invites-show #login-form .input-group .select-kit-header,.invites-show .login-form .input-group input,.invites-show .login-form .input-group .select-kit-header,.invites-show .invite-form .input-group input,.invites-show .invite-form .input-group .select-kit-header {
     padding: .75em .77em;
-    min-width: 250px;
+    min-width: 300px;
     box-shadow: none;
     margin-bottom: .25em;
     width: 100%
@@ -26519,7 +26519,7 @@ img.emoji {
 
 .d-header .panel {
     height: 40px;
-    align-items: end;
+    align-items: center;
     display: inline-grid;
     grid-auto-flow: column
 }
@@ -26536,7 +26536,7 @@ img.emoji {
     border-radius: 8px;
     color: var(--bold-fg);
     font-weight: 700;
-    font-size: 1.125em;
+    font-size: 0.95em;
     letter-spacing: .03em;
     line-height: 1;
     padding: 16px 24px;
@@ -26549,8 +26549,7 @@ img.emoji {
 }
 
 .d-header .header-buttons .login-button {
-    font-size: 1.125em !important;
-    height: revert;
+    font-size: 0.95em !important;
     margin-left: 16px
 }
 
@@ -29443,7 +29442,7 @@ tr {
     border-top-left-radius: 8px;
     border-left: 1px solid #d6d7da;
     cursor: default;
-    padding-left: 16px
+    padding-left: 16px !important;
 }
 
 .topic-list thead th:last-of-type {
