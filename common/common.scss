@@ -1079,12 +1079,6 @@ summary::-webkit-details-marker {
     margin-top: 1em
 }
 
-@media screen and (min-width: ) {
-    .modal-body.user-notes-modal .user-note {
-        max-width:530px
-    }
-}
-
 .modal-body.user-notes-modal .controls {
     float: right
 }
@@ -7425,12 +7419,6 @@ span.bbcode-s {
 .reorder-categories table td {
     padding: .5em .5em .5em 0;
     min-width: 10em
-}
-
-@media screen and (min-width: ) {
-    .reorder-categories table td {
-        min-width:15em
-    }
 }
 
 .reorder-categories .badge-wrapper span.badge-category {
