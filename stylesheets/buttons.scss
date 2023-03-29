@@ -3,9 +3,32 @@ Figma Community Forum
 Buttons
 */
 
+
+:root {
+  --blue-tint: #699bf7;
+  --coral: #ff8577;
+  --golden-yellow: #ffc700;
+  --green: #0fa958;
+  --community-blue: #236DF6;
+  --violet: #a259ff;
+  --violet-tint: #c7b9ff;
+  --violet-alert: rgba(39,109,246,0.1);
+  --red: #f24e1e;
+  --bg: #ffffff;
+  --fg-high-contrast: #000000;
+  --fg-medium-contrast: #333333;
+  --fg-low-contrast: #5d5d5d;
+  --bold-bg: #222222;
+  --bold-fg: #ffffff;
+  --modal-bg: #ffffff;
+  --modal-fg: #333333;
+  --surface-high-contrast: #d6d6d6;
+  --surface-low-contrast: #f5f5f5;
+}
+
 .btn {
   align-items: center;
-  background-color: var(--surface-low-contrast);
+  background-color: #222222;
   border-radius: 6px;
   display: inline-flex;
   font-size: 0.875em;
