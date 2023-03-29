@@ -5341,7 +5341,8 @@ aside.onebox .onebox-body p {
 }
 
 .open .grippie:before {
-    width: 32px
+    width: 32px;
+    border-top: 3px double #ccd3d7 !important;
 }
 
 .composer-fields .presence-users {
